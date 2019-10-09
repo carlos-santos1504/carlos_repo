@@ -1,0 +1,22 @@
+<html>
+	<body>
+		<meta charset="utf-8">
+		<title>1018 - Cédulas</title>
+		<script type="text/javascript">
+		//converter sempre prompt() para lines.shift(); 
+
+		N = parseInt(prompt());
+		C = [100,50,20,10,5,2,1];
+		QTD = [];
+		
+		if(N > 0 && N < 1000000){
+			console.log(N);
+			for(i = 0; i < C.length; i++){QTD[i] = parseInt(N / C[i]);N = N % C[i];}
+			for (j = 0; j < C.length;j++){console.log(QTD[j]+" nota(s) de R$ "+ C[j]+",00")}
+		}else{
+			console.log("“Presentation Error”.");
+		}
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+	<body>
+		<meta charset="utf-8">
+		<title>1020 - Idade em Dias</title>
+		<script type="text/javascript">
+		//converter sempre prompt() para lines.shift(); 
+
+		var valor = parseInt(prompt());
+
+		AA = (valor/(365));
+		A = parseInt(AA);
+		BB = ((AA-A)*365/30);
+		M = parseInt(BB);
+		CC = Math.round((BB-M)*30);
+		D = parseInt((CC));
+		console.log(A+" ano(s)");
+		console.log(M+" mes(es)");
+		console.log(D+" dia(s)");
+		
+		</script>
+	</body>
+</html>

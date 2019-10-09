@@ -1,0 +1,36 @@
+<html>
+	<body>
+		<meta charset="utf-8">
+		<title>2479 - Ordenando a Lista de Crianças do Papai Noel</title>
+		<script type="text/javascript">
+		//converter sempre prompt() para lines.shift(); 
+
+<<<<<<< HEAD
+		var qtd = parseInt(prompt("Informe a quantidade de crianças"));
+=======
+		var qtd = parseInt(prompt());
+>>>>>>> 2fd00484c8eb1bf10a845781467f3a4b79707096
+		var sim = 0;  var nao = 0;
+		var crianca = [];
+		for ( i=0; i < qtd; i++ ){
+			
+			var verfc = prompt().split(" ");
+			crianca.push(verfc[1]);
+			if(verfc[0] == "+"){
+				sim++;
+			}
+		 	if(verfc[0] == "-"){
+				nao++;
+			}
+		}
+		
+		crianca.sort();
+		crianca.forEach(function (value){
+			console.log(value);
+		});
+		
+		console.log("Se comportaram: " + sim + " | Nao se comportaram: " + nao);
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+	<body>
+		<meta charset="utf-8">
+		<title>1019 - Conversão de Tempo</title>
+		<script type="text/javascript">
+		//converter sempre prompt() para lines.shift(); 
+
+		var valor = parseInt(prompt());
+
+		N = ( valor/(60*60));
+		H = parseInt(N);
+		N = ((N-H)*60);
+		M = parseInt(N);
+		N = ((N-M)*60);
+		S = Math.round((N));
+		console.log(H+":"+M+":"+S);
+		
+		</script>
+	</body>
+</html>

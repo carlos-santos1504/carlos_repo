@@ -1,0 +1,4 @@
+npm install -g nodemon
+npm install --save-dev nodemon
+npm config get prefix
+set PATH=%PATH%;C:\Users\Du\AppData\Roaming\npm;

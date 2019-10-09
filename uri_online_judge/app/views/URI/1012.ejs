@@ -1,0 +1,15 @@
+<html>
+	<body>
+		<meta charset="utf-8">
+		<title>1012 - Área</title>
+		<script type="text/javascript">
+		//converter sempre prompt() para lines.shift();
+		var area = prompt().split(" ");
+		console.log('TRIANGULO: '+ ((area[0]*area[2]/2)).toFixed(3));
+		console.log('CIRCULO: ' + ((Math.pow(area[2],2)*3.14159)).toFixed(3));
+		console.log('TRAPEZIO: ' + ((parseFloat(area[0]*area[2])+parseFloat(area[1]*area[2]))/2).toFixed(3));
+		console.log('QUADRADO: ' + (Math.pow(area[1],2)).toFixed(3));
+		console.log('RETANGULO: ' + (area[0]*area[1]).toFixed(3));
+		</script>
+	</body>
+</html>

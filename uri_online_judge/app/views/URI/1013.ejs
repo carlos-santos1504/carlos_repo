@@ -1,0 +1,24 @@
+<html>
+	<body>
+		<meta charset="utf-8">
+		<title>1013 - O Maior</title>
+		<script type="text/javascript">
+		//converter sempre prompt() para lines.shift();
+		var maior = prompt().split(" ");
+		A = parseInt(maior[0]);
+		B = parseInt(maior[1]);
+		C = parseInt(maior[2]);
+
+		maiorAB = A;
+		if(A < B || A < C){
+		  	if(B < C){
+		   		maiorAB = C;
+		  	}else{
+		   		maiorAB = B;
+		  	}
+		}
+
+		console.log(maiorAB + " eh o maior");
+		</script>
+	</body>
+</html>

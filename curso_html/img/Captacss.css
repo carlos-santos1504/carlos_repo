@@ -1,0 +1,6526 @@
+﻿fBODY
+{
+	
+	margin-top: 0px;
+	padding: 0px;
+	text-decoration: none;
+	background-color: White;
+  
+}
+
+.outer{
+	margin:0px;
+	padding:0px;
+
+}	
+@font-face {
+
+      font-family: "eddie";
+      src: url("Fonts/eddie/eddie.ttf");
+
+      }
+eddie-font{
+    font-family: "eddie";  
+       } 
+       
+@font-face {
+
+      font-family: "OpenSans";
+      src: url("Fonts/OpenSans/OpenSans-Semibold.ttf");
+
+      }
+      
+@font-face {
+
+      font-family: "OpenSansEx";
+      src: url("Fonts/OpenSans/OpenSans-ExtraBold.ttf");
+
+      }
+
+/*** CAIXA TEXTO **************************************/
+.CaixaTextoEddie
+{
+    font-size: 9pt;
+    font-family: 'eddie';
+    background-color: #eef3f7;
+    color: #2f3c40;
+    border: 1px solid #05559d;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoTesteOpenSans
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #eef3f7;
+    color: #2f3c40;
+    border: 1px solid #05559d;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoOpenArq
+{
+    font-size: 10pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    color: #2f3c40;
+    border: 1px solid #808080;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoLMeio
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #eef3f7;
+    color: #2f3c40;
+    border: 1px solid #05559d;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoTot
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    color: #0000FF;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+.CaixaTextoDirGray
+{    
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 5px;
+}
+.CaixaTextoMeioGray
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: center;
+}
+.CaixaLabelMeioGray
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+}
+.CaixaTextoDesL
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #666666;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 18px;
+}
+
+.CaixaTextoDes
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoConsulta
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #c7e1f6;
+    clip: rect(auto, auto, auto, auto);
+    text-align: left;
+    text-indent: 2px;
+    color: #2f3c40;
+    vertical-align: middle;
+}
+.CaixaTextoOpenArqConsulta
+{
+    font-size: 10pt;
+    font-family: 'OpenSans';
+    background-color: #c7e1f6;
+    color: #2f3c40;
+    border: 1px solid #999999;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 18px;
+}
+
+.CaixaTextoConsultaSilver
+{
+    border: 1px solid #C0C0C0;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #eef3f7;
+    clip: rect(auto, auto, auto, auto);
+    text-align: left;
+    text-indent: 2px;
+    color: #2f3c40;
+    vertical-align: middle;
+}
+.CaixaTextoConsultaCenterSilver
+{
+    border: 1px solid #C0C0C0;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #eef3f7;
+    clip: rect(auto, auto, auto, auto);
+    text-align: center;
+    text-indent: 2px;
+    color: #2f3c40;
+    vertical-align: middle;
+    line-height: 18px;
+}
+.CaixaTextoConsulta9_Arial
+{
+    border: 1px solid #6C91E6;
+    font-size: 9pt;
+    font-family: Arial;
+    background-color: #FFFFFF;
+    clip: rect(auto, auto, auto, auto);
+    text-align: left;
+    text-indent: 2px;
+    color: #0000CC;
+    vertical-align: middle;
+}
+.CaixaTextoD
+{
+    border: 1px solid #999999;
+    background-color: #eef3f7;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    margin-left: 2px;
+    text-indent: 2px;
+}
+.CaixaTextoDir_D
+{
+	border: 1px solid #999999;
+	background-color: #eef3f7;
+	font-size: 9pt;
+	font-family: 'OpenSans';
+    color: #2f3c40;
+	text-align: right;
+	margin-left: 2px;
+}
+.CaixaTextoLeft_D
+{
+    border: 1px solid #999999;
+    background-color: #eef3f7;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-align: left;
+    margin-left: 2px;
+    text-indent: 2px;
+}
+.CaixaTextoMeio_D
+{
+    border: 1px solid #999999;
+    background-color: #eef3f7;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-align: center;
+    margin-left: 2px;
+    
+}
+.CaixaTextoConsultaDir
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #c7e1f6;
+    clip: rect(auto, auto, auto, auto);
+    text-align: right;
+    text-indent: 2px;
+    color: #2f3c40;
+    vertical-align: middle;
+}
+.CaixaTextoConsultaDir2
+{
+    border: 1px solid #05559d;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #eef3f7;
+    text-align: right;
+    color: #05559d;
+    text-indent: 2px;
+}
+.CaixaTextoConsultaMeio
+{
+    margin: 0px;
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #c7e1f6;
+    clip: rect(auto, auto, auto, auto);
+    text-align: center;
+    color: #2f3c40;
+    vertical-align: middle;
+    line-height: 18px;
+}
+.CaixaTextoConsultaMeio9
+{
+    margin: 0px;
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #c7e1f6;
+    clip: rect(auto, auto, auto, auto);
+    text-align: center;
+    color: #2f3c40;
+    vertical-align: middle;
+    line-height: 18px;
+}
+.CaixaLabelConsultaMeio
+{
+    margin: 0px;
+    border: 1px solid  #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #c7e1f6;
+    clip: rect(auto, auto, auto, auto);
+    text-align: center;
+    color: #2f3c40;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.CaixaTextoConsultaMeio9_Arial
+{
+    border: 1px solid #6C91E6;
+    font-size: 9pt;
+    font-family: Arial;
+    background-color: #FFFFFF;
+    clip: rect(auto, auto, auto, auto);
+    text-align: center;
+    color: #0000CC;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+.CaixaTexto
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    text-indent: 2px;
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 18px;
+    text-indent: 2px;
+}
+.CaixaTexto_Arial
+{
+	font-size: 10pt;
+	font-family: Arial;
+	background-color: #FFFFFF;
+	border: 1px solid #6C91E6;
+	text-indent: 2px;
+	color: #003399;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+.CaixaTextoMultiL
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #05559d;
+    color: #05559D;
+    vertical-align: middle;
+    text-align: justify;
+    text-indent: 2px;
+}
+.CaixaTextoMultiSimples
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    color: #2f3c40;
+    vertical-align: top;
+    text-align: justify;
+    text-indent: 2px;
+}
+.CaixaTextoMulti
+{
+    
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: justify;
+    text-indent: 2px;
+}
+.CaixaTextoMultiBlack
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    color: #333333;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+}
+.CaixaTextoMultiLDes
+{
+	font-size: 9pt;
+	font-family: 'OpenSans';
+	margin: 0px 0px 0px 0px;
+	background-color: #EFEFEF;
+	border: 1px solid  #999999;
+	color: #2f3c40;
+	vertical-align: middle;
+	text-align: justify;
+	text-indent: 2px;
+}
+.CaixaTexto1
+{
+	font-size: 9pt;
+	font-family: Verdana;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #6C91E6;
+	text-indent: 2px;
+	color: #003399;
+	vertical-align: middle;
+	text-align: center;
+	
+}
+.CaixaTextoInf
+{
+    height: 15px;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 2px;
+    background-color: #FFFFFF;
+    color: #666666;
+    vertical-align: middle;
+}
+.CaixaTextoInf1
+{
+    height: 15px;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 2px;
+    background-color: #FFFFFF;
+    color: #1f282b;
+    vertical-align: middle;
+}
+.CaixaTextoInf2
+{
+    height: 15px;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 2px;
+    background-color: #FFFFFF;
+    color: #C10000;
+    vertical-align: middle;
+    text-align: center;
+}
+.CaixaTextoMeio
+{
+    border: 1px solid  #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoMeio9
+{
+    border: 1px solid  #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoMeio11
+{
+    border: 1px solid #999999;
+    font-size: 11pt;
+    font-family: 'OpenSans';
+    color: #C10000;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 22px;
+    background-color: #FFFFFF;
+}
+.CaixaTextoMeioRed9
+{
+    border: 1px solid #C10000;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 18px;
+}
+.CaixaTextoMeioDesGray
+{
+    border: 1px solid  #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #eef3f7;
+}
+.CaixaLabelMeio
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+}
+.CaixaLabelMeioDes
+{
+    border: 1px solid  #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-indent: 2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    background-color: #eef3f7;
+}
+.CaixaTextoMeioDes
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    text-align: center;
+    background-color: #c7e1f6;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+.CaixaTextoMeioRed
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    border: 1px solid #C10000;
+    color: #C10000;
+    vertical-align: middle;
+    text-align: center;
+}
+.CaixaTextoMeio10
+{
+	font-size: 10pt;
+	font-family: Verdana;
+	background-color: #FFFFFF;
+	border: 1px solid #6C91E6;
+	color: #003399;
+	vertical-align: middle;
+	text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.CaixaTextoL
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #eef3f7;
+    color: #2f3c40;
+    border: 1px solid #05559d;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 18px;
+    text-indent: 2px;
+}
+.CaixaTextoDir
+{
+	background-color: #eef3f7;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    border: 1px solid #999999;
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: right;
+    text-indent: 2px;
+}
+.CaixaTexto2
+{
+	font-size: 9pt;
+	font-family: 'OpenSans';
+	margin: 0px 0px 0px 0px;
+	background-color: #E0EAF5;
+	border: 1px solid #6C91E6;
+	text-indent: 2px;
+	color: #FF0000;
+	vertical-align: middle;
+	text-align: left;
+}
+.CaixaTextoInterna
+{
+	font-size: 9pt;
+	font-family: 'OpenSans';
+	margin: 0px 0px 0px 2px;
+	background-color: #FFFFFF;
+	border: 1px solid #6C91E6;
+	text-indent: 2px;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+}
+.CaixaTextoInternaConsulta
+{
+	font-size: 9pt;
+	font-family: 'OpenSans';
+	margin: 0px 0px 0px 2px;
+	background-color: #EAF0F7;
+	border: 1px solid #6C91E6;
+	color: #000000;
+	vertical-align: middle;
+	text-align: center;
+}
+.CaixaTextoConsulta2
+{
+	font-size: 9pt;
+	font-family: 'OpenSans';
+	margin: 0px 0px 0px 2px;
+	background-color: #EAF0F7;
+	border: 1px solid #6C91E6;
+	color: #003399;
+	vertical-align: middle;
+	text-align: left;
+}
+.CaixaTextoCorOB
+{
+    font-size: 9pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #3333FF;
+    text-indent: 2px;
+    color: #0000FF;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorOB_Meio
+{
+	font-size: 8pt;
+	font-family: Verdana;
+	background-color: #FFFFFF;
+	border: 1px solid #3333FF;
+	color: #0000FF;
+	vertical-align: middle;
+	text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+	.CaixaTextoCorSeeGreen_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #00BF8F;
+    color: #00BF8F;
+    vertical-align: middle;
+    text-align: Center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+	.CaixaTextoCorSeeGreen
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #00BF8F;
+    color: #00BF8F;
+    vertical-align: middle;
+    text-align: Left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorO
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #FF9933;
+    text-indent: 2px;
+    color: #FF6600;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorO_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #FF9933;
+    color: #FF6600;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorGLigth
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #00EA00;
+    text-indent: 2px;
+    color: #2EB700;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorGLigth_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #00EA00;
+    color: #2EB700;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorG
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #009900;
+    text-indent: 2px;
+    color: #009900;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorG_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #009900;
+    color: #009900;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorGray
+{
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    color: #999999;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorGray_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    color: #666666;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorBlack
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    text-indent: 2px;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorBlack_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorAzLigth
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #336699;
+    text-indent: 2px;
+    color: #3D79B6;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorAzLigth_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #336699;
+    color: #3D79B6;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CaixaTextoCorGold
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #DDA600;
+    text-indent: 2px;
+    color: #CC9900;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+	.CaixaTextoCorGold_Meio
+{
+    font-size: 8pt;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    border: 1px solid #DDA600;
+    color: #CC9900;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+/*** CAMPOS *************************************/
+.CamposGreen10
+{
+    font-size: 10pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposGreen10Ex
+{
+    font-size: 10pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposDarkGray10
+{
+    font-size: 10pt;
+    color: #666666;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposDGreen
+{
+    font-size: 8pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposWhite7
+{
+    font-size: 7pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposWhite8
+{
+    font-size: 8pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposGray8
+{
+    font-size: 8pt;
+    color: #808080;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+
+.CamposAz8
+{
+    font-size: 8pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposBlack8
+{
+    font-size: 8pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposRed8
+{
+    font-size: 8pt;
+    color: #CC3300;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+
+.CamposDGreen8
+{
+    font-size: 8pt;
+    color: #468a78;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposLGreen8
+{
+    font-size: 8pt;
+    color: #57c1a6;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposDRed8
+{
+    font-size: 8pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposRose9
+{
+    font-size: 9pt;
+    color: #E77474;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+
+.CamposLB8
+{
+    font-size: 8pt;
+    color: #3d7cc0;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposMB8
+{
+    font-size: 8pt;
+    color: #3c69b3;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposRed8
+{
+    font-size: 8pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposDGreenEx
+{
+    font-size: 8pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposGray8Ex
+{
+    font-size: 8pt;
+    color: #808080;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposGray9
+{
+    font-size: 9pt;
+    color: #808080;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposAz8Ex
+{
+    font-size: 8pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposRose8Ex
+{
+    font-size: 8pt;
+    color: #E77474;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+
+.CamposLB8Ex
+{
+    font-size: 8pt;
+    color: #3d7cc0;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposMB8Ex
+{
+    font-size: 8pt;
+    color: #3c69b3;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposRed8Ex
+{
+    font-size: 8pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.Campos8Ex
+{
+    font-size: 8pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.Campos9
+{
+    font-size: 9pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.Campos9W
+{
+    font-size: 9pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.Campos9Az
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.Campos9Ex
+{
+    font-size: 9pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposObs
+{
+    font-size: 10pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposDGreen9
+{
+    font-size: 9pt;
+    color: #485C62;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposDarkGreen9
+{
+    font-size: 9pt;
+    color: #485C62;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposTot
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposLetraGrand
+{
+    font-family: verdana;
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    vertical-align: text-bottom;
+    text-align: center;
+}
+
+.CamposGreen115
+{
+    font-size: 11.5pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposBlue115
+{
+    font-size: 11.5pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposLightBlue115Ex
+{
+    font-size: 11.5pt;
+    color: #3c69b3;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposBlack11Ex
+{
+    font-size: 10.5pt;
+    color: #000000;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposGray115
+{
+    font-size: 11.5pt;
+    color: #999999;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.Campos
+{
+    font-size: 8pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+
+.Campos8Ex
+{
+    font-size: 8pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+
+.Campos9b
+{
+    font-size: 9pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    font-family: 'OpenSansEx';
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposRed9
+{
+    font-size: 9pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposRed9Ex
+{
+    font-size: 9pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.CamposPeq
+{
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.Campos11Green
+{
+    font-size: 11pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #009B27;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.Campos10Blue
+{
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #003EF4;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.Campos10Red
+{
+    font-size: 10pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.Campos10Pink
+{
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #CC0066;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.Campos10Gray
+{
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #808080;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposWhite10
+{
+    font-size: 10pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposBlack11
+{
+    font-size: 11pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposBlue
+{
+    font-size: 8pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.CamposBlue11
+{
+    font-size: 11pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposW
+{
+    padding: inherit;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+    text-align: center;
+}
+.CamposBlackRight
+{
+    padding: inherit;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+    text-align: right;
+}
+.CamposCxDarkBlue
+{
+    border: thin dashed #999999;
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+    background-color: #003399;
+    text-align: center;
+}
+.CamposCxMediumBlue
+{
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 17px;
+    background-color: #82A0DF;
+    text-align: center;
+}
+.CamposCxLightBlueCenter
+{
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 17px;
+    background-color: #BFD5FF;
+    text-align: center;
+}
+.CamposCxLightBlue
+{
+    border: thin dashed #999999;
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+    background-color: #BFD5FF;
+    text-align: center;
+}
+.CamposCxWhiteRight
+{
+    border: thin dashed #999999;
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+    background-color: #FFFFFF;
+    text-align: right;
+}
+.Campos9_Arial
+{
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	font-family: Arial;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+	height: 13px;
+}
+.Campos10
+{
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	font-family: Verdana;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+	height: 13px;
+}
+.Campos11Blue
+{
+    font-size: 11pt;
+    color: #3c69b3;
+    font-family: 'OpenSansEx';
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+}
+.CamposDestaqueMaior
+{
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: 'OpenSans';
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposMaior12B
+{
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposDestaqueMaiorL
+{
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #FF6600;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.CamposDestaqueMaiorA
+{
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #0000FF;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposTitulo16L
+{
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #FF6600;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposTitulo16B
+{
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #1161B0;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposTitulo16G
+{
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #00CE00;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposTituloA
+{
+    font-size: 13pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #0000FF;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposDestaqueMaiorA1
+{
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #4272FF;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposDestaqueMaiorB14
+{
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposDestaqueMaiorR14
+{
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #FF0000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposDestaqueMaiorB
+{
+    font-size: 13pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+.CamposDestaque
+{
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    height: 13px;
+}
+
+.CamposBlue
+{
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #0000CC;
+	font-family: Verdana;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+.CamposRed
+{
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #C10000;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.CamposGray10
+{
+    font-size: 10pt;
+    color: #999999;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposCenterDrkGreen
+{
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    font-family: Verdana;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.CamposGreen
+{
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #00B95C;
+	font-family: Verdana;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+.CamposLaranja
+{
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF6600;
+	font-family: Verdana;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+.CamposDes
+{
+    font-size: 8pt;
+    color: #808080;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+.CamposRodape
+{
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #999999;
+    font-family: 'OpenSans';
+    vertical-align: middle;
+    text-align: center;
+}
+
+.CamposAlinPnl
+{
+    font-size: 8pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+    vertical-align: bottom;
+    text-align: left;
+    margin-left: 4px;
+}
+.CamposAlinPnl2
+{
+	font-size: 9pt;
+	color: #3E6DDD;
+	font-family: Verdana;
+	vertical-align: bottom;
+	text-align: left;
+	margin-left: 2px;
+}
+.CamposAlinPnl2Des
+{
+	font-size: 9pt;
+	color: #999999;
+	font-family: Verdana;
+	vertical-align: bottom;
+	text-align: left;
+	margin-left: 2px;
+}
+.CamposD
+{
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: right;
+}
+.CamposDir
+{
+    background-color: #05559d;
+    font-size: 9pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 9px;
+}
+.CamposDir1
+{
+    background-color: #05559d;
+    font-size: 9pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 30px;
+  
+}
+.CamposDirM_Arial
+{
+	border-style: solid;
+	border-width: 1px 1px 1px 0px;
+	border-color: #FF6600;
+	margin: 2px 0px 0px 0px;
+	background-color: #FFD2A6;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #336699;
+	font-family: Arial;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: right;
+	padding: 3px 7px 0px 0px;
+}
+
+.CamposDir1M_Arial
+{
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: #FF6600;
+	margin: 2px 0px 0px 0px;
+	background-color: #FFD2A6;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	font-family: Arial;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: right;
+	padding: 3px 7px 0px 0px;
+}
+.CamposCenter
+{
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	border-color: #FF6600;
+	background-color: #FFD2A6;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	font-family: Verdana;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.CamposLeft
+{
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	border-color: #FF6600;
+	background-color: #FFD2A6;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	font-family: Verdana;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+/*** CHECKBOX **************************************/
+.CkhAtivo1
+{
+    font-family: 'OpenSans';
+    font-size: 9pt;
+    color: #1f282b;
+    vertical-align: bottom;
+}
+.ChkDes
+{
+    font-family: 'OpenSans';
+    font-size: 8pt;
+    color: #999999;
+    vertical-align: middle;
+}
+.CkhAtivo3
+{
+    font-family: 'OpenSans';
+    font-size: 9pt;
+    color: #05559d;
+    vertical-align: middle;
+}
+.CkhAtivo2
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #1f282b;
+    vertical-align: text-top;
+}
+.CkhAtivo
+{
+    font-family: 'OpenSans';
+    font-size: 9pt;
+    color: #1f282b;
+    vertical-align: bottom;
+    text-align: left;
+}
+/*** COLUNAS ***************************************/
+
+.ColunaAgenda
+{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #000000;
+    width: 179px;
+    font-family: 'OpenSans';
+    font-size: 9px;
+    background-color: #FFFFFF;
+}
+.ColunaAgenda1
+{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    width: 179px;
+    font-family: 'OpenSans';
+    font-size: 9px;
+    background-color: #FFFFFF;
+}
+.ColunaAgenda2
+{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    width: 41px;
+    font-family: 'OpenSans';
+    font-size: 9px;
+    background-color: #FFFFFF;
+}
+.ColunaAgenda3
+{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #000000;
+    width: 41px;
+    font-family: 'OpenSans';
+    font-size: 9px;
+    background-color: #FFFFFF;
+}
+.ColunaAgenda4
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    width: 179px;
+    font-family: 'OpenSans';
+    font-size: 9px;
+    background-color: #FFFFFF;
+}
+/*** COMBOS ****************************************/
+.Combos
+{
+    border: 1px solid  #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    line-height: 22px;
+    height: 19px;
+}
+.Combos9
+{
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    line-height: 22px;
+}
+.CombosRed9
+{
+    border: 1px solid #C10000;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    line-height: 22px;
+}
+#Combos:hover 
+{
+   background-color: #00FFFF;
+}
+.CombosD
+{
+    background-color: #eef3f7;
+    border: 1px solid #999999;
+    padding: inherit;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.Combos10_Arial
+{
+    border: 1px solid #6C91E6;
+    padding: inherit;
+    font-size: 10pt;
+    font-family: Arial;
+    color: #003399;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Combos10
+{
+    border: 1px solid #6C91E6;
+    padding: inherit;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #003399;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.CombosInterno
+{
+	border: 1px solid #6C91E6;
+	padding: inherit;
+	height: 19px;
+	font-size: 8pt;
+	font-family: Verdana;
+	color: #003399;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	margin-left: 2px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.CombosConsulta
+{
+    margin: 0px;
+    background-color: #c7e1f6;
+    border: 1px solid #999999;
+    padding: inherit;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    }
+.CombosConsultaSilver
+{
+    background-color: #eef3f7;
+    border: 1px solid #999999;
+    padding: inherit;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.CombosDes
+{      
+    background-color: #E9E9E9;
+    border: 1px solid #999999;
+    font-size: 9pt;
+    font-family: 'OpenSans';
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    line-height: 22px;
+}
+.CombosConsulta9_Arial
+{
+    margin: inherit;
+    background-color: #FFFFFF;
+    border: 1px solid #6C91E6;
+    padding: inherit;
+    height: 19px;
+    font-size: 9pt;
+    font-family: Arial;
+    color: #0000CC;
+    margin: 0px;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+}
+/*** DIV POPUP ***************************************/
+.divPopup
+{
+    position: fixed;
+    top: 334px;
+    left: 738px;
+    padding: 1px;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #3C7565;
+    background-color: #FFFFFF;
+    right: 142px;
+}
+.DivTitleStyle
+{
+    position: fixed;
+    top: 334px;
+    left: 738px;
+    padding: 1px;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #999999;
+    background-color: #c7e1f6;
+    right: 142px;
+    font-family: OpenSans;
+    font-size: 9px;
+}
+ 
+
+.divPopup1
+{
+	position: absolute;
+	top: 354px;
+	left: 350px;
+	padding: 1px;
+	width: 160px;
+	height: 150px;
+	border: 1px solid #3C7565;
+	background-color: #FFFFFF;
+	right: 89px;
+}
+
+.divPopup2
+{
+	position: absolute;
+	top: 354px;
+	left: 655px;
+	padding: 1px;
+	width: 160px;
+	height: 150px;
+	border: 1px solid #3C7565;
+	background-color: #FFFFFF;
+	right: 544px;
+}
+.divPopup3
+{
+	position: absolute;
+	top: 410px;
+	left: 949px;
+	padding: 1px;
+	width: 160px;
+	height: 150px;
+	border: 1px solid #3C7565;
+	background-color: #FFFFFF;
+	right: -78px;
+}
+.divPopup4
+{
+	position: absolute;
+	top: 403px;
+	left: 769px;
+	padding: 1px;
+	width: 160px;
+	height: 150px;
+	border: 1px solid #3C7565;
+	background-color: #FFFFFF;
+	right: 42px;
+}
+.divPopup5
+{
+	position: absolute;
+	top: 614px;
+	left: 756px;
+	padding: 1px;
+	width: 160px;
+	height: 150px;
+	border: 1px solid #3C7565;
+	background-color: #FFFFFF;
+	right: 64px;
+}
+.divPopup6
+{
+    padding: 1px;
+    border: 1px solid #3C7565;
+    background-color: #FFFFFF;
+    font-family: OpenSans;
+    font-size: 8px;
+}
+
+.divTodayDay
+{
+    font-family: OpenSans;
+    font-size: 8px;
+    color: #CC3300;
+}
+
+.DivDayStyle
+{
+    
+  font-family: OpenSans;
+  font-size: 8px;
+  
+}
+
+.DivDayHeader
+{
+    
+    border: 1px solid #999999;
+    background-color: #EBEBEB;
+    font-family: OpenSans;
+    font-size: 7px;
+    color: #666666;
+}
+.DivSelDay
+{
+    background-color: #A7D1C8;
+    font-family: OpenSans;
+    font-size: 8px;
+    color: #000000;
+}
+
+/*** GRID **************************************/
+.GridLinhas
+{
+    font-family: 'OpenSans';
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #1f282b;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #999999;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasP
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #1f282b;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #999999;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasP10
+{
+	font-family: 'OpenSans';
+	font-size: 10pt;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	border: 1px solid #336699;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+
+}
+.GridLinhasPBlack
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #000000;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasPGray
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #808080;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #808080;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasGrayP_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #666666;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #808080;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridColunasPGray
+{
+    border: 1px solid #eef3f7;
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #666666;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    background-color: #eef3f7;
+}
+
+.GridLinhasOrangeM_Arial
+{
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	border: 1px solid #FF7E28;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+}
+.GridLinhasOrangeM_Meio_Arial
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #FF7E28;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridLinhasOrangeM9_Arial
+{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	border: 1px solid #FF7E28;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+}
+.GridLinhasOrangeM9_Meio_Arial
+{
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #FF7E28;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridLinhasP_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #1f282b;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #999999;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasPViolet
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #05559d;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.GridLinhasPViolet_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #05559d;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.GridLinhasPGreen_Meio
+{   
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #509c88;
+    line-height: 20px;
+}
+
+
+.GridLinhasPGreen
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #509c88;
+    line-height: 20px;
+}
+
+
+
+.GridLinhas9_Meio_Arial
+{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: center;
+	text-indent: 2px;
+	border: 1px solid #336699;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+
+}
+.GridLinhasP_Meio10
+{
+    font-family: 'OpenSans';
+    font-size: 10pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #336699;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasPBlack_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #000000;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridLinhasPBlue_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #0000FF;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridLinhasP_Dir
+{
+	font-family: 'OpenSans';
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+	border: 1px solid #336699;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+	
+}
+.GridPag
+{
+    font-family: 'OpenSans';
+    font-size: 8pt;
+    color: #1f282b;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.GridLinhasLink
+{
+	font-family: 'OpenSans';
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	line-height: 20px;
+	text-decoration: none;
+}
+.GridLinhasLinkSel
+{
+	font-family: 'OpenSans';
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF9933;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	line-height: 20px;
+	text-decoration: none;
+}
+.GridLinhas1
+{
+	font-family: 'OpenSans';
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid #336699;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+}
+.GridLinhasDir
+{
+	font-family: 'OpenSans';
+	font-size: 8pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+	border: 1px solid #336699;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+}
+.GridColunas
+{
+	font-family: 'OpenSans';
+	font-size: 8pt;
+	font-weight: bold;
+	color: #336699;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #D2E1F0;
+	border: 1px solid #336699;
+	line-height: 20px;
+}
+.GridColunas10
+{
+    font-family: 'OpenSans';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #336699;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #D2E1F0;
+    border: 1px solid #336699;
+    line-height: 20px;
+}
+.GridColunasP
+{
+    border-style: none;
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #1f282b;
+    line-height: 20px;
+}
+.GridColunasPDGreen
+{
+    
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #4F646A;
+    border: 1px solid #4F646A;
+    line-height: 20px;
+}
+
+.GridColunasPViolet
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #05559d;
+    border: 1px solid #05559d;
+    line-height: 20px;
+}
+
+.GridColunasPGreen
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #509c88;
+    border: 1px solid #509c88;
+    line-height: 20px;
+}
+.GridColunasPBlueSea
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #000099;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #92D6FA;
+    border: 1px solid #003399;
+    line-height: 20px;
+}
+.GridLinhasPBlueSea
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #003399;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasPBlueSea_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #003399;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridColunasPBlackLight
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #CCCCCC;
+    border: 1px solid #000000;
+    line-height: 20px;
+}
+.GridLinhasPBlack
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #000000;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasPBlack_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #000000;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+.GridLinhasPDGreen_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #4F646A;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+}
+.GridLinhasPDGreen
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #000000;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #4F646A;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+}
+.GridColunasPGreenLight
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #006432;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #85E79D;
+    border: 1px solid #00773C;
+    line-height: 20px;
+}
+.GridColunas9_Arial
+{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #336699;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #D2E1F0;
+	border: 1px solid #336699;
+	line-height: 20px;
+}
+.GridColunasPBlue
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #0000FF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ECF2F9;
+    border: 1px solid #0000FF;
+    line-height: 20px;
+}
+.GridColunasPBlack
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #000000;
+    line-height: 20px;
+    background-color: #FFFFFF;
+}
+
+.GridColunasOrangeP
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #05559d;
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3c69b3;
+    line-height: 20px;
+}
+.GridColunasPOrange
+{
+    border: 1px solid #05559d;
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3c69b3;
+    line-height: 20px;
+}
+.GridLinhasPOrange_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #05559d;
+    line-height: 16px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridLinhasOrangeP
+{
+	font-family: 'OpenSans';
+	font-size: 7pt;
+    color: #2f3c40;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 2px;
+	border: 1px solid #05559d;
+	line-height: 20px;
+	width: inherit;
+	z-index: inherit;
+	text-decoration: none;
+}
+
+
+
+.GridLinhasOrangeP_Meio
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #2f3c40;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #05559d;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    text-decoration: none;
+}
+
+.GridColunasOrange10
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #05559d;
+    font-family: 'OpenSans';
+    font-size: 10pt;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3c69b3;
+    line-height: 20px;
+}
+.GridColunasPOrangeDark
+{
+    border: 1px solid #05559d;
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #FFFFFF;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3c69b3;
+    line-height: 20px;
+}
+
+.GridColunasOrangePM9_Arial
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFD2A6 #FF7E28 #FF7E28 #FF7E28;
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FF3300;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #FFD2A6;
+	line-height: 20px;
+}
+
+
+.GridLinhasP_SemCor
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: 2px;
+    border: 1px solid #808080;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+}
+
+.GridLinhasP_Meio_SemCor
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #808080;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+}
+.GridLinhasP_Dir_SemCor
+{
+	font-family: 'OpenSans';
+	font-size: 7pt;
+	vertical-align: middle;
+	text-align: right;
+	border: 1px solid #808080;
+	line-height: 20px;
+	width: inherit;
+    z-index: inherit;
+	
+}
+
+.GridLinhasP_Esq_Compromisso
+{
+	font-family: 'OpenSans';
+	font-size: 7pt;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.GridMensagem
+{
+    font-family: 'OpenSans';
+    font-size: 11pt;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    color: #05559d;
+}
+.GridLinhasP_Meio_Red
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    border: 1px solid #336699;
+    line-height: 20px;
+    width: inherit;
+    z-index: inherit;
+    color: #C10000;
+}
+/*** Links **************************************/
+.LnkPadrao
+{
+    font-size: 9pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+}
+.LnkPadrao10
+{
+    font-size: 10pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+}
+.LnkPadraoAz10
+{
+    font-size: 10pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.LnkPadraoAz9
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.LnkPadraoAzEx9
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+}
+.LnkPadraoBlackEx9
+{
+    font-size: 9pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.LnkPadraoBlack9
+{
+    font-size: 9pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+}
+.LnkPadraoRed9
+{
+    font-size: 9pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+}
+.LnkPadrao11
+{
+    font-size: 11pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+}
+.LnkPadrao10E
+{
+    font-size: 10pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+
+.LnkDes
+{
+    font-size: 9pt;
+    color: #C0C0C0;
+    font-family: 'OpenSans';
+}
+.LnkDes10
+{
+    font-size: 10pt;
+    color: #C0C0C0;
+    font-family: 'OpenSans';
+}
+.LnkDGreen
+{
+    font-size: 9pt;
+    color: #5C767C;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.LnkLGreen
+{
+    font-size: 9pt;
+    color: #43B699;
+    font-family: 'OpenSans';
+    text-decoration: none;
+}
+/*** MENSAGENS **************************************/
+.Mensagem
+{
+    font-size: 10pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.MensagemLeftGreen
+{
+    font-size: 10pt;
+    color: #428271;
+    font-family: 'OpenSans';
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.MensagemAlerta
+{
+    font-size: 10pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+    text-align: center;
+    vertical-align: middle;
+}
+.MensagemWhite
+{
+    font-size: 10pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-align: center;
+    vertical-align: middle;
+}
+.MensagemErro
+{
+    font-size: 10pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*** MENUS *******************************************/
+
+/*** Menu1 ******************************************/
+#Menu1
+{
+	width: 350px;
+	line-height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	font-family: Verdana;
+	font-size: 8pt;
+	text-decoration: none;
+}
+#Menu1 ul
+{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+
+}
+#Menu1 li a:link, #menu li a:visited
+{
+	color: #000000;
+	display: block;
+	padding: 0px 0 0 0px;
+	text-decoration: none;
+}
+#Menu1 li a:hover
+{
+    color: #006BD7;
+    padding: 0px 0 0 0px;
+}
+#Menu1 li a:active
+{
+	color: #336699;
+	padding-right: 0;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+
+/*** MenuTitulo *************************************/
+#MenuTitulo
+{
+    background-position: 10px 45px;
+    width: 220px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+    font-family: 'OpenSans';
+    background-image: url('Imagens/New2017/TracoMenuLat6.jpg');
+    background-repeat: no-repeat;
+}
+#MenuTitulo ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}	
+#MenuTitulo li a:link
+{
+	color: #FFFFFF;
+	padding: 0 0 0 15px;
+}
+/*** MenuTituloP *************************************/
+#MenuTituloP
+{
+    background-color: #2f3c40;
+    width: 220px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-position: 10px 45px;
+    background-image: url('Imagens/New2017/TracoMenuLat6.jpg');
+    background-repeat: no-repeat;
+    
+}
+#MenuTituloP ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}	
+#MenuTituloP li a:link
+{
+	color: #FFFFFF;
+	padding: 0 0 0 15px;
+}
+/*** MenuTitConfigMG *************************************/
+
+#MenuTitConfigMG
+{
+    background-position: 10px 45px;
+    background-color: #2f3c40;
+    width: 219px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-image: url('Imagens/New2017/TracoMenuLatMg.jpg');
+    background-repeat: no-repeat;
+}
+#MenuTitConfigMG ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}	
+#MenuTitConfigMG li a:link
+{
+	color: #FFFFFF;
+	padding: 0 0 0 15px;
+}
+
+/*** MenuTitConfig *************************************/
+
+#MenuTitConfig
+{
+    background-position: 10px 45px;
+    background-color: #2f3c40;
+    width: 220px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-image: url('Imagens/New2017/TracoMenuLat6.jpg');
+    background-repeat: no-repeat;
+}
+#MenuTitConfig ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}	
+#MenuTitConfig li a:link
+{
+	color: #FFFFFF;
+	padding: 0 0 0 15px;
+}
+
+/*** MenuSubFilial *************************************/
+#MenuSubFilial
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubFilial ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubFilial li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubFilial li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubFilial li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuSubE *************************************/
+#MenuSubE
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+ }
+#MenuSubE ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubE li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubE li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubE li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuSubA *************************************/
+#MenuSubA
+{ 
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+   
+}
+
+#MenuSubA ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubA li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubA li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubA li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+
+/*** MenuSubA *************************************/
+#MenuSubP
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubP ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubP li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubP li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubP li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuSubG *************************************/
+#MenuSubG
+{   
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuSubG ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubG li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubG li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubG li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuSubAUD *************************************/
+#MenuSubAUD
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubAUD ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubAUD li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubAUD li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubAUD li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuSubTMKT *************************************/
+#MenuSubTMKT
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubTMKT ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubTMKT li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubTMKT li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubTMKT li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/***MenuSubA_Principal ***************************/
+
+#MenuSubA_Principal
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubA_Principal ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubA_Principal li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubA_Principal li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubA_Principal li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}		
+/***MenuSubF ***************************/
+
+#MenuSubF
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubF ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubF li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubF li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubF li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}		
+/***MenuSubCom ***************************/
+
+#MenuSubCom
+{
+    width: 220px;
+    line-height: 30px;
+    font-family:'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color:  #FFFFFF;
+    margin: 0px;
+    background-color: #2f3c40;
+}
+#MenuSubCom ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}	
+#MenuSubCom li a:link
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuSubCom li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuSubCom li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}		
+/*** MenuAdm *************************************/
+#MenuAdm
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuAdm ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#MenuAdm li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuAdm li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuAdm li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuTMKT *************************************/
+#MenuTMKT
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuTMKT ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+#MenuTMKT li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuTMKT li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuTMKT li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuAud *************************************/
+#MenuAud
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuAud ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+#MenuAud li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuAud li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuAud li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuAdmP *************************************/
+#MenuAdmP
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuAdmP ul
+{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+#MenuAdmP li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-size: 11px;
+}
+#MenuAdmP li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuAdmP li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuGeo *************************************/
+#MenuGeo
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuGeo ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+#MenuGeo li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-size: 11px;
+}
+#MenuGeo li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: OpenSans;
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuGeo li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuFinN *************************************/
+#MenuFin
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuFin ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+#MenuFin li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuFin li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuFin li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+
+/*** MenuCom *************************************/
+#MenuCom
+{
+	margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuCom ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+#MenuCom li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuCom li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuCom li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+/*** MenuEmp *************************************/
+#MenuEmp
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 220px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuEmp ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+#MenuEmp li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuEmp li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuEmp li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+
+
+/*** MenuPrincMG *************************************/
+#MenuPrincMG
+{
+    margin: 0px;
+    line-height: 30px;
+    width: 219px;
+    font-family: 'OpenSansEx';
+    font-size: 9pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2f3c40;
+}
+#MenuPrincMG ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+#MenuPrincMG li a:link, #menu li a:visited
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+}
+#MenuPrincMG li a:hover
+{
+    background-position: center;
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #405156;
+}
+#MenuPrincMG li a:active
+{
+    color: #FFFFFF;
+    padding: 0 0 0 15px;
+    border-bottom-style: solid;
+    border-bottom: 1px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    background-color: #57c1a6;
+}
+
+
+/*** MenuH *************************************/
+#MenuH
+{
+	width: 68px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuH ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuH li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupHome.jpg');
+}	
+#MenuH li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuH li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/MenuSupHomePos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#MenuH li a:active
+{
+    background-image: url('Imagens/New2017/MenuSupHomeSel.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+/*** MenuES *************************************/
+#MenuES
+{
+	width: 68px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuES ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuES li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupEntra.jpg');
+}	
+#MenuES li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuES li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/MenuSupEntraPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#MenuES li a:active
+{
+    background-image: url('Imagens/New2017/MenuSupEntraSel.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+/*** MenuRx *************************************/
+#MenuRx
+{
+	width: 103px;
+	line-height: 104px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuRx ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuRx li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/AbaReduxBordaBranco.jpg');
+}	
+#MenuRx li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuRx li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/AbaReduxBordaBrancoPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuRx li a:active
+{
+	background-image: url('Imagens/New2017/AbaReduxBordaBrancoSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuMgBtConfig *************************************/
+#MenuMgBtConfig
+{
+	width: 137px;
+	line-height: 84px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuMgBtConfig ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuMgBtConfig li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/BotaoConfigMG.jpg');
+}	
+#MenuMgBtConfig li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuMgBtConfig li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/BotaoConfigMGPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuMgBtConfig li a:active
+{
+	background-image: url('Imagens/New2017/BotaoConfigMGSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** MenuMgBtExtEmp *************************************/
+#MenuMgBtExtEmp
+{
+	width: 137px;
+	line-height: 84px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuMgBtExtEmp ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuMgBtExtEmp li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/BotaoMGExtEmp.jpg');
+}	
+#MenuMgBtExtEmp li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuMgBtExtEmp li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/BotaoMGExtEmpPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuMgBtExtEmp li a:active
+{
+	background-image: url('Imagens/New2017/BotaoMGExtEmpSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuMgBtExtUsu *************************************/
+#MenuMgBtExtUsu
+{
+	width: 137px;
+	line-height: 84px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuMgBtExtUsu ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuMgBtExtUsu li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/BotaoMGExtUsu.jpg');
+}	
+#MenuMgBtExtUsu li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuMgBtExtUsu li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/BotaoMGExtUsuPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuMgBtExtUsu li a:active
+{
+	background-image: url('Imagens/New2017/BotaoMGExtUsuSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuMgBtSaldo *************************************/
+#MenuMgBtSaldo
+{
+	width: 137px;
+	line-height: 84px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuMgBtSaldo ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuMgBtSaldo li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/BotaoMGSaldo.jpg');
+}	
+#MenuMgBtSaldo li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuMgBtSaldo li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/BotaoMGSaldoPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuMgBtSaldo li a:active
+{
+	background-image: url('Imagens/New2017/BotaoMGSaldoSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuMgBtUsu *************************************/
+#MenuMgBtUsu
+{
+	width: 137px;
+	line-height: 84px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuMgBtUsu ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuMgBtUsu li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/BotaoMGUsu.jpg');
+}	
+#MenuMgBtUsu li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuMgBtUsu li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/BotaoMGUsuPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuMgBtUsu li a:active
+{
+	background-image: url('Imagens/New2017/BotaoMGUsuSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** MenuR *************************************/
+#MenuR
+{
+	width: 130px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuR ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuR li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupRecruta.jpg');
+}	
+#MenuR li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuR li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: url('Imagens/New2017/MenuSupRecrutaPos.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+}	
+#MenuR li a:active
+{
+	background-image: url('Imagens/New2017/MenuSupRecrutaSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuA *************************************/
+#MenuA
+{
+	width: 144px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuA ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuA li 
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url('Imagens/New2017/MenuSupPA.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}	
+#MenuA li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuA li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url('Imagens/New2017/MenuSupPAPos.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuA li a:active
+{
+	background-image: url('Imagens/New2017/MenuSupPASel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuAU ************************************/
+#MenuAu
+{
+	width: 99px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuAu ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuAu li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupAud.jpg');
+}	
+#MenuAu li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuAu li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url('Imagens/New2017/MenuSupAudPos.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuAu li a:active
+{
+	background-image:  url('Imagens/New2017/MenuSupAudSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuCa *************************************/
+#MenuCa
+{
+	width: 85px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuCa ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuCa li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupCarona.jpg');
+}	
+#MenuCa li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#MenuCa li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url('Imagens/New2017/MenuSupCaronaPos.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuCa li a:active
+{
+	background-image: url('Imagens/New2017/MenuSupCaronaSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** MenuV *************************************/
+#MenuV
+{
+	width: 103px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuV ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuV li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupBenef.jpg');
+}	
+#MenuV li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#MenuV li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url('Imagens/New2017/MenuSupBenefPos.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#MenuV li a:active
+{
+	background-image: url('Imagens/New2017/MenuSupBenefSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** MenuRG *************************************/
+#MenuRG
+{
+	width: 85px;
+	line-height: 82px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#MenuRG ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#MenuRG li
+{
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0px;
+    background: background-repeat: no-repeat;
+    text-decoration: none;
+    background-image: url('Imagens/New2017/MenuSupResgate.jpg');
+    background-repeat: no-repeat;
+}	
+#MenuRG li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#MenuRG li a:hover
+{
+    padding: 0 0 0 0;
+    margin: 0px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: url('Imagens/New2017/MenuSupResgatePos.jpg');
+}
+#MenuRG li a:active
+{
+	background-image: url('Imagens/New2017/MenuSupResgateSel.jpg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** AbaN12 **************************************/
+#AbaN12
+{
+	width: 148px;
+	line-height: 34px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#AbaN12 ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#AbaN12 li 
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaA1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}	
+#AbaN12 li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN12 li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaB1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN12 li a:active
+{
+	background-image: url(Imagens/AbaNovaL1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+/*** AbaN13 **************************************/
+#AbaN13
+{
+	width: 148px;
+	line-height: 34px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#AbaN13 ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#AbaN13 li 
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaA1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}	
+#AbaN13 li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN13 li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaB1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN13 li a:active
+{
+	background-image: url(Imagens/AbaNovaL1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** AbaN21 **************************************/
+#AbaN21
+{
+	width: 148px;
+	line-height: 34px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#AbaN21 ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#AbaN21 li 
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaA1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}	
+#AbaN21 li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN21 li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaB1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN21 li a:active
+{
+	background-image: url(Imagens/AbaNovaL1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** AbaN23 **************************************/
+#AbaN23
+{
+	width: 148px;
+	line-height: 34px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#AbaN23 ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#AbaN23 li 
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaA1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}	
+#AbaN23 li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN23 li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaB1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN23 li a:active
+{
+	background-image: url(Imagens/AbaNovaL1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+/*** AbaN31 **************************************/
+#AbaN31
+{
+	width: 148px;
+	line-height: 34px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#AbaN31 ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#AbaN31 li
+{
+    font-family: 'OpenSans';
+    font-size: 7pt;
+    color: #1f282b;
+    vertical-align: middle;
+}	
+#AbaN31 li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN31 li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaB1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN31 li a:active
+{
+	background-image: url(Imagens/AbaNovaL1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+
+/*** AbaN32 **************************************/
+#AbaN32
+{
+	width: 148px;
+	line-height: 34px;
+	padding: 0 0 0 0;
+	text-decoration: none;
+}
+#AbaN32 ul
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-decoration: none;
+}
+#AbaN32 li 
+{
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaA1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}	
+#AbaN32 li a:link, #menu li a:visited
+{
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN32 li a:hover
+{
+	
+	padding: 0 0 0 0;
+	margin: 0px;
+	background: url(Imagens/AbaNovaB1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#AbaN32 li a:active
+{
+	background-image: url(Imagens/AbaNovaL1.jpg);
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+
+/*** OPTIONS **************************************/
+.OptAtivo
+{
+    font-family: 'OpenSans';
+    font-size: 9pt;
+    color: #05559d;
+    vertical-align: top;
+}
+.OptAtivoBlack
+{
+    font-family: 'OpenSans';
+    font-size: 9pt;
+    color: #1f282b;
+    vertical-align: top;
+}
+.OptDes
+{
+    font-family: 'OpenSans';
+    font-size: 9pt;
+    color: #C0C0C0;
+    vertical-align: top;
+}
+.OptAtivo1
+{
+    font-family: 'OpenSans';
+    font-size: 8pt;
+    color: #1f282b;
+    vertical-align: middle;
+}
+
+
+/*** PAINELS **************************************/
+
+
+
+.PainelQuadroPeq
+{
+    display: block;
+}
+.PainelAjuda
+{
+    border: 1px solid #05559d;
+    margin: 1px;
+    background-color: #c7e1f6;
+    color: #1f282b;
+}
+.PainelAviso
+{
+    background-color: #b5eddf;
+}
+.PainelAvisoBlue
+{
+    border: medium dashed #0000FF;
+    margin: 0px 0px 0px 3px;
+    display: block;
+    background-color: #E6F2FF;
+}
+.PainelAvisoGreen
+{
+    border: medium dashed #00AA37;
+    margin: 0px 0px 0px 3px;
+    display: block;
+    background-color: #F2F2F2;
+}
+
+.PainelAvisoBlueAlert
+{
+    background-position: center bottom;
+    background-color: #E0EBF5;
+}
+.PainelAvisoBlueAlert1
+{
+    background-position: center bottom;
+    background-color: #d4e0eb;
+}
+
+.PainelAvisoOrangeAlert
+{
+    background-position: center bottom;
+    background-color: #B00000;
+}
+.PainelAvisoRose
+{
+    background-position: center bottom;
+    background-color: #fae2e2;
+}
+.PainelPrincipal
+{
+      background-color: #eef3f7;
+}
+
+.PainelPrincipalPesq
+{
+    border-width: 0px 1px 0px 1px;
+    background-color: #eef3f7;
+    border-right-color: #d6dce1;
+    border-left-color: #d6dce1;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+.PainelPrincipal2
+{
+    background-color: #c7e1f6;
+}
+.PainelPrincipalDes
+{
+	border: 1px solid #666666;
+	margin: 0px 0px 0px 3px;
+	display: block;
+	vertical-align: top;
+	background-position: center;
+	background-color: #EFEFEF;
+}
+.PainelFlex
+{
+    border-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+.PainelFlex0
+{
+	margin:  0px;
+	
+}
+.PainelFlex0Center
+{
+    margin: 0px 0px 0px 100px;
+}
+.PainelFlex0Blue
+{
+    border: medium dotted #0033CC;
+    margin: 0px;
+    background-color: #C8D6F0;
+}
+.PainelFlex0RedLight
+{
+    margin: 0px;
+    background-color: #FFDDDD;
+}
+.PainelFlex0PesqYellow
+{
+    border: thin dotted #009B4E;
+    margin: 0px 0px 0px 10px;
+    background-color: #FFFFF0;
+}
+.PainelFlex0BlueYellow
+{
+    border: 1px solid #666666;
+    margin: 0px 0px 0px 10px;
+    background-color: #FFFFD9;
+}
+.PainelRodape
+{
+	border: 1px solid #FFBE93;
+	margin: 0px 3px 0px 3px;
+	display: block;
+	vertical-align: top;
+	background-color: #FFFFCC;
+	position: inherit;
+	
+}
+.PainelInterno
+{
+    border: 1px solid #05559d;
+    display: block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    text-align: left;
+    text-indent: 4px;
+}
+.PainelPesquisa
+{
+    border: 1px solid #CCCCCC;
+    margin: 8px;
+    display: block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    text-align: left;
+    text-indent: 4px;
+}
+.PainelPesquisa0
+{
+    border: 1px solid #CCCCCC;
+    margin: 0px;
+    display: block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    text-align: left;
+    text-indent: 4px;
+}
+.PainelTela
+{
+    border-style: none solid none solid;
+    background-position: center bottom;
+    background-color: #FFFFFF;
+    border-right-color: #d6dce1;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-left-color: #d6dce1;
+}
+.PainelPrinc
+{
+    background-position: center bottom;
+    border: 1px solid #FFFFFF;
+    margin: 4px;
+    display: block;
+}
+.PainelTelaGreen
+{
+  
+    background-color: #D9ECE7;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-color: #ADD6CB;
+    border-left-color: #ADD6CB;
+}
+.PainelTelaGray
+{
+    background-position: center bottom;
+    background-color: #F0F0F0;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-color: #DFDFDF;
+    border-left-color: #DFDFDF;
+}
+.PainelTelaRed
+{
+    background-position: center bottom;
+    border: 1px solid #C10000;
+    margin: 4px;
+    display: block;
+    background-color: #FFFFFF;
+}
+.PainelTelaBlue
+{
+    padding: 0px;
+    margin: 0px;
+    background-position: center bottom;
+    background-color: #c7e1f6;
+}
+.PainelTelaViolet
+{  
+    border-width: 0px 1px 0px 1px;
+    background-color: #DEEDFA;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-color: #B9DAF4;
+    border-left-color: #B9DAF4;
+}
+.PainelTela2
+{
+	background-position: center bottom;
+	border: 1px solid #336699;
+	margin: 0px 0px 0px  4px;
+	display: block;
+	background-color: #F5F9FC;
+}
+.PainelTela3
+{
+    background-position: center bottom;
+    border: 1px solid #0066CC;
+    margin: 0px 0px 0px 4px;
+    display: block;
+    background-color: #FFFFDF;
+}
+.PainelTelaL
+{
+    background-position: center center;
+    border: 1px solid #666666;
+    margin: 0px 0px 0px 4px;
+    display: block;
+    background-color: #EDDFEC;
+    background-repeat: no-repeat;
+    background-image: url('Imagens/TelaTMKT.jpg');
+}
+
+
+
+.PainelTelaB
+{
+    background-position: center center;
+    border: 1px solid #666666;
+    margin: 0px 0px 0px 4px;
+    display: block;
+    background-color: #CBDBF5;
+    background-repeat: no-repeat;
+    background-image: url('Imagens/TelaCOM.jpg');
+}
+.PainelQuadroInfo
+{
+    background-position: center center;
+    border: 1px solid #254996;
+    margin: 0px 0px 0px 4px;
+    display: block;
+    background-color: #F2F2F2;
+    background-repeat: no-repeat;
+}
+.PainelTelaG
+{
+    background-position: center center;
+    border: 1px solid #666666;
+    margin: 0px 0px 0px 4px;
+    display: block;
+    background-color: #D7E3D7;
+    background-repeat: no-repeat;
+    background-image: url('Imagens/TelaAUD.jpg');
+}
+.PainelTelaGL
+{
+    background-position: center center;
+    border: 1px solid #336699;
+    margin: 0px 0px 0px 4px;
+    display: block;
+    background-color: #E7F1E9;
+    background-repeat: no-repeat;
+}
+.PainelQuadroAviso1
+{
+    background-position: center bottom;
+    background-color: #57c1a6;
+}
+.PainelQuadroLightGreen
+{
+    background-position: center bottom;
+    background-color: #CCECE4;
+}
+.PainelQuadroLightGreen1
+{
+    background-position: center bottom;
+    background-color: #c7e6de;
+}
+
+.PainelQuadroLightBlue1
+{
+    background-position: center bottom;
+    background-color: #b4ccef;
+}
+.PainelQuadroLightBlue
+{
+    background-position: center bottom;
+    background-color: #BBD7FF;
+}
+ 
+.PainelQuadro
+{
+    background-position: center bottom;
+    background-color: #05559d;
+}
+.PainelQuadro2
+{
+    background-position: center bottom;
+    background-color: #509c88;  
+}
+.PainelTela1
+{
+	margin: 1px;
+	display: block;
+	background-color: #FFFFFF;
+}
+.PainelInternoD
+{
+    border: 1px solid #808080;
+    margin: 4px;
+    display: block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    text-align: left;
+    text-indent: 4px;
+}
+
+
+.PainelDesabilitado
+{
+    margin: 2px;
+    display: block;
+    vertical-align: top;
+    background-color: #eef3f7;
+}
+.PainelDesabilitado2
+{
+	border: 1px solid #CCCCCC;
+	margin: 2px;
+	display: block;
+	vertical-align: top;
+	background-color: #F5F5F5;
+}
+.PainelMenu
+{
+    background-color: #2f3c40;
+    width: 220px;
+    position: relative;
+}
+.PainelMenuMG
+{
+    background-color: #2f3c40;
+    width: 219px;
+    position: relative;
+}
+.PainelMenuT
+{
+     
+    background-color: #2f3c40;
+    width: 220px;
+}
+.PainelMenuTMG
+{
+     
+    background-color: #2f3c40;
+    width: 219px;
+}
+.PainelSubMenu
+{
+   background-color: #2f3c40;
+   background-position: center bottom;
+   background-image: url('Imagens/New2017/TracoMenuLat6.jpg');
+   background-repeat: no-repeat;
+}
+.PainelCabecalhoInterno
+{
+    line-height: 30px;
+    background-color: #509c88;
+}
+.PainelCabecalho1Interno
+{
+    border: 1px solid #000000;
+    display: block;
+    line-height: 20px;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+.PainelCabecalho
+{
+    background-position: center center;
+    display: block;
+    background-color: #F5F5F5;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
+}
+.PainelCabecalho1
+{
+    background-position: center center;
+    border: 1px solid #000000;
+    display: block;
+    background-repeat: repeat;
+    background-color: #b9c1cc;
+}
+/*** SUB-MENU ************************************/
+.Sub-Menu
+{
+    font-size: 10pt;
+    padding: 0 0 0 15px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.Sub-MenuT
+{
+    font-size: 10pt;
+    font-weight: normal;
+    padding: 0 0 0 15px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+/*** SUB-TITULOS **********************************/
+.Sub-Titulo
+{
+    font-size: 9pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #2b303b;
+    font-family: 'OpenSans';
+   
+}
+
+.Sub-Titulo9Bold
+{
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #2b303b;
+    font-family: 'OpenSansEx';
+}
+.Sub-TitAz10
+{
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+/*** TITULOS **************************************/
+.TituloBigBlack12
+{
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: 'OpenSansEx';
+}
+.TituloBigBlack
+{
+    font-size: 18pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    font-family: 'OpenSans';
+}
+.TituloCorEscolha
+{
+    font-size: 8pt;
+    font-family: 'OpenSans';
+}
+.TituloGreenNota8
+{
+    font-size: 8pt;
+    color: #3C7565;
+    font-family: 'OpenSans';
+}
+.TituloMenuDarkSilver14
+{
+    font-size: 14pt;
+    color: #666666;
+    font-family: 'OpenSansEx';
+}
+.TituloMenuDarkBlue14
+{
+    font-size: 14pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+}
+.TituloMenuDarkSilver11
+{
+    font-size: 11pt;
+    color: #666666;
+    font-family: 'OpenSans';
+}
+.TituloMenuDarkBlue11
+{
+    font-size: 11pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloMenuDarkSilver10Ex
+{
+    font-size: 10pt;
+    color: #666666;
+    font-family: 'OpenSansEx';
+}
+.TituloMenuSilver11
+{
+    font-size: 11pt;
+    color: #CCCCCC;
+    font-family: 'OpenSansEx';
+}
+.TituloSilver9
+{
+    font-size: 9pt;
+    color: #808080;
+    font-family: 'OpenSans';
+}
+.TituloAvisoSub
+{
+    font-size: 12pt;
+    color: #FFFFFF;
+    font-family: 'OpenSansEx';
+}
+.TituloAviso
+{
+    font-size: 14pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+}
+.TituloAvisoBlack14
+{
+    font-size: 14pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+}
+.TituloAvisoWhite15
+{
+    font-size: 15pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+}
+
+.TituloAvisoBlack15
+{
+    font-size: 15pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+}
+
+.TituloAvisoBlack15Ex
+{
+    font-size: 15pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloAvisoInterno
+{
+    font-size: 12pt;
+    color: #fae2e2;
+    font-family: 'OpenSans';
+}
+.TituloAvisoBlue12
+{
+    font-size: 12pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloBlueEx11
+{
+    font-size: 11pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+}
+.TituloAz9
+{
+    font-size: 9pt;
+    color: #3c69b3;
+    font-family: 'OpenSans';
+}
+.TituloAz8
+{
+    font-size: 8pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+
+.TituloBlack9
+{
+    font-size: 9pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloBlack10
+{
+    font-size: 10pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloBlack18
+{
+    font-size: 18pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+}
+.TituloBlack11
+{
+    font-size: 11pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloMedBlue10
+{
+    font-size: 10pt;
+    color: #3d7cc0;
+    font-family: 'OpenSansEx';
+}
+.TituloDarkBlue10
+{
+    font-size: 10pt;
+    color: #28517D;
+    font-family: 'OpenSansEx';
+}
+.TituloGrayLight10
+{
+    font-size: 10pt;
+    color: #CCCCCC;
+    font-family: 'OpenSansEx';
+}
+.TituloMedGreen10
+{
+    font-size: 10pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+.TituloMedGreen115
+{
+    font-size: 11.5pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+.TituloMedGreen9Ex
+{
+    font-size: 9pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+.TituloDarkGreen10
+{
+    font-size: 10pt;
+    color: #4F646A;
+    font-family: 'OpenSansEx';
+}
+.TituloDarkGreen11
+{
+    font-size: 11pt;
+    color: #4F646A;
+    font-family: 'OpenSansEx';
+}
+.TituloLightGreen11Ex
+{
+    font-size: 11pt;
+    color: #57c1a6;
+    font-family: 'OpenSansEx';
+}
+.TituloLightGreen9Ex
+{
+    font-size: 9pt;
+    color: #389A82;
+    font-family: 'OpenSansEx';
+}
+.TituloBlack10Semi
+{
+    font-size: 10pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+}
+.TituloBlack8
+{
+    font-size: 8pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloDestaqueAz12
+{
+    font-size: 12pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+
+.TituloDestaqueAz105
+{
+    font-size: 10.5pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloAz8Ex
+{
+    font-size: 8pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloAz9Ex
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloAz12Ex
+{
+    font-size: 12pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloRed9Ex
+{
+    font-size: 9pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloRed10
+{
+    font-size: 10pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+}
+.TituloRed7
+{
+    font-size: 7pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+}
+.TituloDarkRed7
+{
+    font-size: 7pt;
+    color: #950000;
+    font-family: 'OpenSans';
+}
+.TituloRed12Ex
+{
+    font-size: 12pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloRed11Ex
+{
+    font-size: 11pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloLB9Ex
+{
+    font-size: 9pt;
+    color: #4a86c6;
+    font-family: 'OpenSansEx';
+    text-decoration: none;
+}
+.TituloAz10
+{
+    font-size: 10pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloAz7
+{
+    font-size: 7pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloLightGreen10
+{
+    font-size: 10pt;
+    color: #57c1a6;
+    font-family: 'OpenSansEx';
+}
+.TituloAz10_Exbold
+{
+    font-size: 10pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+}
+.TituloAz11_Exbold
+{
+    font-size: 11pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+}
+.TituloAz12_Exbold
+{
+    font-size: 11.5pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+}
+.TituloDGreen10_Exbold
+{
+    font-size: 10pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+.TituloDGreen11_Exbold
+{
+    font-size: 11pt;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+.TituloDarkBlue
+{
+    font-size: 10pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+
+.TituloAzLight10_Exbold
+{
+    font-size: 10pt;
+    color: #4a86c6;
+    font-family: 'OpenSansEx';
+}
+
+
+.TituloAzPadrao
+{
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #0000F2;
+    font-family: Verdana;
+}
+.Titulo
+{
+    font-size: 15pt;
+    color: #2b303b;
+    font-family: 'OpenSans';
+}
+.TituloRed
+{
+    font-size: 15pt;
+    color: #C10000;
+    font-family: 'OpenSans';
+}
+.TituloAz15
+{
+    font-size: 15pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloMenor
+{
+    font-size: 11pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.TituloDarkRed11
+{
+    font-size: 11pt;
+    color: #C10000;
+    font-family: 'OpenSansEx';
+}
+.TituloDarkRed
+{
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #C10000;
+    font-family: Verdana;
+}
+
+.TituloEmpresa
+{
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #2b303b;
+    font-family: 'OpenSans';
+}
+.TituloEmpresaMG
+{
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #2b303b;
+    font-family: 'OpenSansEx';
+}
+.TituloGeral
+{
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #3c69b3;
+    font-family: 'OpenSans';
+}
+.TituloEmp
+{
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #999999;
+    font-family: 'OpenSans';
+}
+.Titulo2
+{
+    font-size: 11pt;
+    color: #509c88;
+    font-family: 'OpenSans';
+}
+
+.Titulo5
+{
+    font-size: 11.5pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.Titulo5Black
+{
+    font-size: 11pt;
+    font-style: normal;
+    color: #000000;
+    font-family: Verdana;
+}
+.Titulo6
+{
+    font-size: 11pt;
+    color: #57c1a6;
+    font-family: 'OpenSans';
+}
+.Titulo6MG
+{
+    font-size: 9.5pt;
+    color: #369931;
+    font-family: 'OpenSans';
+}
+.TituloDestaqueAz
+{
+    font-size: 8pt;
+    font-style: normal;
+    color: #57c1a6;
+    font-family: 'OpenSans';
+}
+.TituloAz
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}
+.Titulo3
+{
+	font-size: 11pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #1F3E7E;
+	font-family: Verdana;
+}
+
+.Titulo12Green
+{
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #509c88;
+    font-family: 'OpenSans';
+}
+.Titulo13GreenEx
+{
+    font-size: 13pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+
+.Titulo14GreenEx
+{
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #509c88;
+    font-family: 'OpenSansEx';
+}
+.Titulo4
+{
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #2b303b;
+    font-family: 'OpenSans';
+}
+.TituloDestaqueQ
+{
+    background-position: left center;
+    font-size: 10pt;
+    color: #4a86c6;
+    font-family: 'OpenSans';
+}
+.TituloDestaqueQ2
+{
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #0033CC;
+    font-family: Verdana;
+}
+.TituloInterno
+{
+    font-size: 10pt;
+    font-style: normal;
+    color: #1f282b;
+    font-family: 'OpenSans';
+}
+.TituloBlackEx10
+{
+    font-size: 10pt;
+    font-style: normal;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloWhiteEx10
+{
+    font-size: 10pt;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: 'OpenSansEx';
+}
+.TituloInterno10ExtraBold
+{
+    font-size: 10pt;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+}
+.TituloInterno9ExtraBold
+{
+    font-size: 9pt;
+    font-style: normal;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    margin: 0px 0px 0px 0px;
+}
+.TituloInterno11
+{
+    font-size: 11pt;
+    font-style: normal;
+    color: #1f282b;
+    font-family: 'OpenSansEx';
+    margin: 0px 0px 0px 0px;
+}
+.TituloInternoViolet
+{
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    color: #8F09EA;
+    font-family: Verdana;
+    margin: 0px 0px 0px 0px;
+}
+.TituloInternoAzulSimples
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+}        
+   
+.TituloCabecalho
+{
+    margin: 0px 0px 2px 4px;
+    font-size: 10pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    line-height: 20px;
+    text-align: center;
+}
+.TituloCabecalho1
+{
+    margin: 0px 0px 0px 4px;
+    font-size: 10pt;
+    color: #2f3c40;
+    font-family: 'OpenSans';
+    line-height: 20px;
+    text-align: center;
+}
+.TituloCabecalho2
+{
+    font-size: 9pt;
+    color: #1f282b;
+    font-family: 'OpenSans';
+    text-align: center;
+}
+.TituloCabecalho2Ex
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSansEx';
+    text-align: center;
+}
+.TituloInternoAzul
+{
+    font-size: 9pt;
+    color: #FFFFFF;
+    font-family: 'OpenSansEx';
+    background-color: #05559d;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}
+.TituloInternoAzulM_Arial
+{
+	border-width: 1px;
+	border-color: #FF6600;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #336699;
+	font-family: Arial;
+	background-color: #FFD2A6;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.TituloResultAzLeft
+{
+    border-width: 1px;
+    border-color: #05559d;
+    padding: 3px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
+    font-size: 7pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-color: #3c69b3;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: left;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-indent: 5px;
+}
+.TituloResultAzLeft1
+{
+    border-width: 1px;
+    border-color: #05559d;
+    padding: 3px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
+    font-size: 7pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: left;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    text-indent: 5px;
+    background-color: #3c69b3;
+}
+.TituloResultAzCenter
+{
+	border-width: 1px;
+	border-color: #05559d;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 7pt;
+	color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-color: #3c69b3;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+.TituloResultAzRight
+{
+	border-width: 1px;
+	border-color: #05559d;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 7pt;
+	color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-color: #3c69b3;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: right;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+}
+
+.TituloResultAzCenter1
+{
+	border-width: 1px;
+	border-color: #05559d;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 7pt;
+    color: #FFFFFF;
+    font-family: 'OpenSans';
+    background-color: #3c69b3;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+}
+.TituloResultAzCenter1M9_Arial
+{
+	border-width: 1px;
+	border-color: #FF6600;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #336699;
+	font-family: Arial;
+	background-color: #EFEFEF;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+}
+.TituloResultAzCenterM9_Arial
+{
+	border-width: 1px;
+	border-color: #FF6600;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #336699;
+	font-family: Arial;
+	background-color: #EFEFEF;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+.TituloResultAzLeftM9_Arial
+{
+	border-width: 1px;
+	border-color: #FF6600;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #336699;
+	font-family: Arial;
+	background-color: #EFEFEF;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: left;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	text-indent: 5px;
+}
+.TituloResultAzLeft1M9_Arial
+{
+	border-width: 1px;
+	border-color: #FF6600;
+	padding: 3px 0px 0px 0px;
+	margin: 2px 0px 0px 0px;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #336699;
+	font-family: Arial;
+	background-color: #EFEFEF;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: left;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	text-indent: 5px;
+}
+ .TituloRepAz
+{
+    font-size: 13pt;
+    font-style: normal;
+    color: #1B3550;
+    font-family: 'OpenSans';
+    vertical-align: middle;
+    text-align: right;
+}
+
+.TituloDes
+{
+    font-size: 9pt;
+    color: #C3C3C3;
+    font-family: 'OpenSans';
+}
+.TextoAzP
+{
+    font-size: 9pt;
+    color: #05559d;
+    font-family: 'OpenSans';
+    vertical-align: middle;
+    text-align: left;
+}

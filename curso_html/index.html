@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<form method="POST" id=form>
+			<header>
+				<table><tr><td>
+					<input type="image" name="ctl00$ImgPrincLogo" id="img" src="img/LogoReduxRgb0.jpg">
+				</td></tr></table>
+			</header>
+			<br>
+			
+			<center>
+			<section class="border border-secondary">
+
+				<br><h1><label id="infoForm1">Formulario de Cadastro</label></h1><hr>
+  					<table> 
+  						<tr>
+			  			<!--Desabilitado-->
+			  				<td><div class="form-group">
+							<label for="nome" id=lblNome>Desabilitado</label>
+							<center><input type="text" name="nome" id="txtNome" class="form-control" placeholder="Não e possivel digitar em mim" required disabled></center>
+							</div></td>
+						<!--Apenas Leitura-->
+							<td><div class="form-group">
+							<label for="email" id=lblEmail>Apenas Leitura</label>
+							<center><input type="email" name="email" id="txtEmail" class="form-control" placeholder="E possivel me copiar" required readonly></center>
+							</div></td>
+						</tr>
+			  			<tr>
+			  			<!--Nome-->
+			  				<td><div class="form-group">
+							<label for="nome" id=lblNome>Nome</label>
+							<center><input type="text" name="nome" id="txtNome" class="form-control" placeholder="Digite o seu nome" required autofocus></center>
+							</div></td>
+						<!--E-mail-->
+							<td><div class="form-group">
+							<label for="email" id=lblEmail>E-mail</label>
+							<center><input type="email" name="email" id="txtEmail" class="form-control" placeholder="seu@email.com.br" required></center>
+							</div></td>
+						</tr>
+						<tr>
+						<!--Data de Nascimento-->
+							<td><div class="form-group">
+							<label for="nascimento" id=lblNascimento>E-mail</label>
+							<center><input type="date" name="nascimento" id="txtNascimento" class="form-control" required min="2019-01-01" max="2019-10-31"></center>
+							</div></td>
+						<!--Sexo-->
+							<td><div class="form-group">
+							<label for="li" id=lblSexo>Sexo</label>
+							<center>
+							<input type="radio" name="sexo" id="txtSexo">
+							<label for="sexo" id=lblSexo>Masculino</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							<input type="radio" name="sexo" id="txtSexo">
+							<label for="sexo" id=lblSexo>Femenino</label>
+							</center>
+							</div></td>
+						</tr>
+						<tr>
+						<!--Termos de Uso-->
+							<td><div class="form-group">
+							<label for="li" id=lblTermos>E-mail</label>
+							<center><input type="checkbox" name="li" id="txtTermos"></center>
+							</div></td>
+						<!--Volume-->
+							<td><div class="form-group">
+							<label for="volume" id=lblVolume>Volume</label>
+							<center><input type="range" name="volume" id="txtVolume" min="0" max ="100" value="50"></center>
+							</div></td>
+						</tr>
+						<tr>
+						<!--Bateria-->
+							<td><div class="form-group">
+							<label for="meter" id=lblMeter>Bateria</label>
+							<center><meter name="meter" id="txtMeter" min="0" max ="100" low="15" value="60" ></meter></center>
+							</div></td>
+						<!--Bateria-->
+							<td><div class="form-group">
+							<label for="progress" id=lblProgress>Carregando</label>
+							<center><progress name="progress" id="txtProgress" min="0" max ="100" value="60" ></progress></center>
+							</div></td>
+						</tr>
+						<tr>
+						<!--Ano Fabricação-->
+							<td><div class="form-group">
+							<label for="ano" id=lblAno>Ano Fabricação</label>
+							<center><input type="number" name="ano" id="txtAno" class="form-control" min="1990" max="2019" value="2019"></center>
+							</div></td>
+						<!--Cor-->
+							<td><div class="form-group">
+							<label for="cor" id=lblCor>Cor</label>
+							<center><input type="color" name="cor" id="txtCor" class="form-control"></center>
+							</div></td>
+						</tr>
+						<tr>
+						<!--Url-->
+							<td><div class="form-group">
+							<label for="url" id=lblUrl>Url</label>
+							<center><input type="url" name="url" id="txtUrl" class="form-control"></center>
+							</div></td>
+						<!--Busca-->
+							<td><div class="form-group">
+							<label for="busca" id=lblBusca>Busca</label>
+							<center><input type="search" name="busca" id="txtBusca" class="form-control"></center>
+							</div></td>	
+						</tr>
+						<tr>
+			  			<tr>
+			  			<!--Mensagem-->
+			  				<td><div class="form-group">
+							<label for="mensagem" id=lblMensagem>Mensagem</label>
+							<center><textarea type="text" name="mensagem" id="txtMensagem" class="form-control" placeholder="Digite o sua Mensagem"></textarea></center>
+							</div></td>
+			  			<!--Estados-->
+			  				<td><div class="form-group">
+							<label for="estados" id=lblEstados>Estados</label>
+							<center><select type="text" name="estados" id="txtEstados" multiple size="3">	
+								<optgroup label="Sudeste">
+									<option value="SP">São Paulo</option>
+									<option value="MG" selected>Minas Gerais</option>
+									<option value="RJ">Rio de Janeiro</option>
+								</optgroup>
+								<optgroup label="Sul">
+								<option value="PR">Paraná</option>
+								<option value="SC" selected>Santa Catarina</option>
+								<option value="RS">Rio Grande do Sul</option>
+								</optgroup>
+							</select></center>
+							</div></td>							
+						</tr>
+						<tr>
+						<!--Oculto-->
+							<input type="hidden" name="id" value="1">
+						<!--Senha-->
+			  				<td><div class="form-group">
+							<label for="senha" id=lblSenha>Senha</label>
+							<center><input type="password" name="senha" id="txtSenha" class="form-control"></center>
+							</div></td>
+						<!--Mês-->
+							<td><div class="form-group">
+							<label for="mes" id=lblMes>Mês</label>
+							<center><input type="month" name="mes" id="txtMes" class="form-control"></center>
+							</div></td>
+						</tr>
+						<tr>
+						<!--Semana-->
+			  				<td><div class="form-group">
+							<label for="semana" id=lblSemana>Semana</label>
+							<center><input type="week" name="semana" id="txtSemana" class="form-control"></center>
+							</div></td>
+						<!--Tempo-->
+							<td><div class="form-group">
+							<label for="tempo" id=lblTempo>Tempo</label>
+							<center><input type="time" name="tempo" id="txtTempo" class="form-control"></center>
+							</div></td>
+						</tr>
+						<tr>
+			  			<!--Lista-->
+			  				<td><div class="form-group">
+							<label for="Lista" id=lblLista>Lista</label>
+							<center><input type="text" list="navegadores">	
+								<datalist id="navegadores">
+									<option value="Chorme">
+									<option value="Firefox">
+									<option value="Safari"> 
+									<option value="Edge">
+								</datalist>
+							</center></div></td>
+						</tr>
+					</table>
+					<table>
+						<tr><td><center><div class="form-group">
+							<button type="submit" id="btnEnviar" class="btn btn-primary">Cadastrar</button>
+							</center></td>
+						</tr>
+					</table>
+			</section>
+			
+			<br>
+			
+			<br>
+			</center>
+			<footer>
+				<table><tr><td>
+				</td></tr></table>
+			</footer>
+			<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		</form>
+	</body>
+</html>

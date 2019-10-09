@@ -1,0 +1,11 @@
+* {box-sizing: border-box;}
+html,body,header{ margin: 0; 	padding: 0;}
+nav,section,table{ width: 95%;}
+header,footer{	height: 83px;	background: #3b78b9;}
+section {	height: 1200px;	background: #eef3f7;	border-radius: 10px;}
+/*footer {	height: 50px;	background: #3b78b9;}*/
+hr{	border-top: 2px solid #AAA;	width: 97%;}
+form {
+	/*background-image: url("../img/vantagens-bg.png");*/
+	background: #e6ecff;
+}

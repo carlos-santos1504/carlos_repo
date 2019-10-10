@@ -35,3 +35,28 @@ git reset
 	--mixed [id Commit] // Voltar pronto para dar (add.)
 	--hard [id Commit] // Voltar para o commit anterior
 	obs: Utilizar o id Commit anterior sempre
+
+git checkout -b [nomeBranch] // Criar Branch
+
+git branch -D [nomeBranch] // Remover Branch
+
+git checkout [nomeBranch] // Entrar em um Branch
+
+git merge [nomeBranch] // Mesclar os commits de outro branch na ordem de criação
+
+git rebase [nomeBranch] // Mover os commits de outro branch para o topo da lista
+
+vi .gitignore // Ignorar arquivos ou extensões para add .
+	* .json" // ignorar arquivos .json
+	Readme.md // ignorar arquivo Readme.md
+
+git stash // guardar as modificações e deixar guardado para depois
+
+git stash apply // vai executar as alterações que estava guardadas
+
+git stash list // mostrar todas as stash guardadas
+
+git stash clear // limpar as alterações guardadas
+
+git config --global alias.s status // criar atalho "git s" vai executar "git status"
+

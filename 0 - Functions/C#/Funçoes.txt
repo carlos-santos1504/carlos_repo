@@ -1,0 +1,38 @@
+Example Random
+Random dice = new Random();
+int roll1 = dice.Next(1, 7);
+int roll2 = dice.Next(1, 7);
+int roll3 = dice.Next(1, 7);
+
+int total = roll1 + roll2 + roll3;
+
+Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+
+Example Contains and If
+
+string message = "The quick brown fox jumps over the lazy dog.";
+if (message.Contains("fox"))
+{
+    Console.WriteLine("What does the fox say?");
+}
+
+Example Array and StartsWith
+
+string[] Pedido_falsa = {"B123","C234","A345", "C15", "B177","G3003","C235","B179"};
+
+foreach (string items in Pedido_falsa)
+{
+    if (items.StartsWith("B"))
+    {
+    Console.WriteLine(items);
+    }
+}
+
+
+Example if direct 
+
+int saleAmount = 1001;
+
+int discount = saleAmount > 1000 ? 100 : 50;
+
+Console.WriteLine($"Discount: {discount}");
